@@ -1,0 +1,13 @@
+.contact-content {
+    /* height: 395px; */
+    font-family: var(--font1);
+    background-color: rgb(134, 204, 112);
+    display: block;
+    margin-top: 24px;
+    padding: 8px;
+    /* background-image: url(../images/article.jpg); */
+}
+
+.contact-form {
+    height: 80vh;
+}

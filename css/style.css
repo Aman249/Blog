@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 24px;
+    font-family: var(--font1);
+    /* height: 100px; */
+    /* background-color: rgb(218, 218, 218); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 30px;
+    display: flex;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+}
+.nav-left ul li {
+    list-style: none;
+    font-family: var(--font2);
+    margin: 0 16px;
+}
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+.nav-left ul li a:hover{
+    /* color: var(--main-bg-color); */
+    /* background-color: white; */
+    transition: all 0.2s ease-out;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.form-input{
+    padding: 4px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 0 12px;
+    font-family: var(--font1);
+}
+.btn{
+    padding: 4px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.btn:hover{
+    color: white;
+    background-color: var(--main-bg-color);
+}
+
+.content {
+    height: 100%;
+    /* background-color: rgb(201, 201, 201); */
+    display: flex;
+    margin-top: 24px;
+    padding: 8px;
+    background: url(../images/article.jpg);
+}
+.content-left{
+    font-family: var(--font1);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-right img {
+    height: 355px;
+    border-radius: 20px;
+}
+
+.home-articles {
+    /* height: 300px; */
+    /* background-color: rgb(240, 240, 240); */
+    padding-top: 12px;
+    position:relative;
+}
+
+.year-box {
+    /* background-color: rgb(58, 145, 116); */
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    /* top: 10px; */
+    /* font-style: italic; */
+    display: flex;
+    flex-direction: row;
+}
+.year-box input {
+    margin-left: 6px;
+}
+
+.home-article {
+    display: flex;
+    background-color: rgb(196, 196, 196);
+    margin: 20px;
+}
+
+.home-article img {
+    width: 300px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    padding-top: 1px;
+    padding-bottom: 3px;
+    width: 100%;
+    background-color: var(--main-bg-color);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
